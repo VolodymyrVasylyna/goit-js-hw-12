@@ -4,7 +4,7 @@
   margin: 0 auto;
 } 
 
-#search-form {
+.search-form {
   margin: 0 auto;
   display: flex;
   padding: 36px 0px;
@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-#search-input {
+.search-input {
   width: 254px;
   height: 38px;
   font-family: Montserrat;
@@ -26,14 +26,14 @@
   padding: 0 0 0 16px;
 }
 
-#search-input:hover {
+.search-input:hover {
   border: 1px solid #000;
 }
 
 
 
 
-#search-input:focus-visible {
+.search-input:focus-visible {
   border: 1px solid #4e75ff;
   outline: #4e75ff;
 }
@@ -51,7 +51,7 @@
   border: none;
 }
 
-#gallery {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -108,7 +108,20 @@
   padding: 0 10px;
 }
 
-#load-more {
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-top: 20px;
+}
+
+.load-more {
   display: block;
   margin: 20px auto;
   border-radius: 8px;
